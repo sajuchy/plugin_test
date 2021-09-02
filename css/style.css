@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   
+}
+
+.menu ul li{
+    margin-right: 25px;
+}
+
+.menu ul li:last-child{
+    margin-right: 0px;
+}
+
+.menu ul li a{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: black !important;
+    transition: .3s;
+    font-weight: 600;
+    
+}
+
+.menu ul li a:hover{
+   color: red !important;
+    
+}
+section.home{
+    padding-top: 100px;
+}
+
+
+.count-title{
+  
+    text-align: center;
+    
+}
+
+
+
+/* about start */
+
+section.about{
+    padding-bottom: 100px;
+}
+
+
+.content_left{
+
+}
+
+
+.content-right{}
+.content-right h2{
+    font-family: 'lato-regular';
+    color: #333333;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.content-right .pra-1{
+    margin-bottom: 30px;
+    word-spacing: 3px;
+}
+.content-right .pra-2{
+    margin-bottom: 32px;
+    word-spacing: 1px;
+}
+.content-right .btn-about{
+    width: 190px;
+    height: 45px;
+    padding: 10px 0;
+    font-family:'roboto-medium' ;
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: none !important;
+    border: 1px solid #8e8e8e;
+    border-radius: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.content-right .btn-about:hover{
+    background-color: #333333;
+    color: #ffff;
+}
+
+.btn-about i{
+    margin-left: 10px !important;
+}
+/* about end */
+
+.parallax {
+    min-height: 400px;
+    background: transparent;
+}
+section.paralax{
+    padding: 50px 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+
+.p-title p{
+    line-height: 2em;
+    
+}
+
+/* Image style */
+
+
+.toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 300px; height: 220px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+
+/* progress */
+#progressbar {
+    margin-top: 20px;
+    
+}
+    
+.progress-label {
+font-weight: bold;
+text-shadow: 1px 1px 0 #fff;
+}
+
+.ui-dialog-titlebar-close {
+display: none;
+}
+.ui-progressbar .ui-progressbar-value {
+    margin: 0px;
+    height: 100%;
+    background-color: green;
+}
+
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+   
+    
+   
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+
+body {
+    margin: 0;
+}
+#container {
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+}
+ 
+.img {
+    position: absolute;
+}
+
+
+
+
+
+
+.he{
+    font-family: sans-serif;
+    font-family: 60px;
+    background-color: rgb(255, 145, 0);
+    color:#fff;
+}
+
+#getting-started{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.single-counter{
+    background-color: rgb(255, 145, 0);
+    width: 190px;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.single-counter span{
+    display: block;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+
+
